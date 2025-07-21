@@ -1,77 +1,167 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+<h1 align="center">🏋️‍♂️ Fitness Freaks</h1>
 
-## Project info
+<p align="center">
+  <img src="https://urbandreamsports.com/wp-content/uploads/2024/08/pexels-pixabay-416778-scaled.jpg" alt="Hero Preview" width="100%" />
+</p>
 
-**URL**: https://lovable.dev/projects/88ed8b91-8863-46da-aa9b-1eb3ada3b70f
+<p align="center">
+  <strong>Your AI-powered companion for fitness, nutrition, and community motivation</strong>
+</p>
 
-## How can I edit this code?
+<p align="center">
+  <a href="https://github.com/Hammad-Tariq007/Fitness_Freaks"><img src="https://img.shields.io/github/license/Hammad-Tariq007/Fitness_Freaks" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Development-blue" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Backend-Supabase-green" alt="Supabase"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Frontend-React-blue" alt="React"></a>
+</p>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Live Demo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88ed8b91-8863-46da-aa9b-1eb3ada3b70f) and start prompting.
+👉 [View Live App](https://fitness-freaks.site/)  
+👉 [Watch Demo Video](https://www.loom.com/share/efb79925e15d4b27b895464af69e9aee?sid=5f31e166-232e-4015-b8b0-ddebe781a9a8)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 About the Project
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Fitness Freaks** is a full-stack fitness platform developed for our Final Year Project. It empowers users to track health, engage with the fitness community, and get personalized exercise & diet plans powered by AI.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✨ Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+✅ **AI-Powered Exercise & Diet Plans**  
+✅ **BMI Calculator** to assess body metrics  
+✅ **Progress Tracker** for daily fitness logging  
+✅ **Interactive Fitness Community**  
+✅ **Blog Section** for health & wellness education  
+✅ **Responsive Design** across all devices  
+✅ **Supabase Backend** with Auth & Realtime DB  
+✅ **Secure User Authentication**  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🖼️ Build Your Strength
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+| User1 | User2 | User3 |
+|----------|----------------|-----------|
+| ![](https://images.unsplash.com/photo-1546483875-ad9014c88eba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGd5bXxlbnwwfDB8MHx8fDA%3D) | ![](https://images.unsplash.com/photo-1605296867724-fa87a8ef53fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGd5bXxlbnwwfDB8MHx8fDA%3D) | ![](https://images.unsplash.com/photo-1675026482188-8102367ecc16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHxneW18ZW58MHwwfDB8fHww) |
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**:  
+- ⚛️ React  
+- 💨 Tailwind CSS  
+- 🔥 ShadCN UI  
+- 🧠 OpenAI / AI integration (planned or used)
+
+**Backend**:  
+- 🐬 Supabase (PostgreSQL, Auth, Storage)  
+- 🔐 JWT Authentication  
+
+**Dev Tools**:  
+- Vite  
+- Git + GitHub  
+- Render / Netlify (for deployment)
+
+---
+
+## 📁 Project Structure
+
+Fitness_Freaks/ <br>
+├── public/ <br>
+│ └── assets/ <br>
+│ ├── hero-preview.png <br>
+│ ├── dashboard.png <br>
+│ ├── bmi.png <br>
+│ └── community.png <br>
+├── src/ <br>
+│ ├── components/ <br>
+│ ├── pages/ <br>
+│ ├── services/ <br>
+│ ├── App.jsx <br>
+│ └── main.jsx <br>
+├── .env <br>
+├── .gitignore <br>
+├── README.md <br>
+├── package.json <br>
+└── vite.config.js <br>
+<hr>
+
+## 🧪 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Hammad-Tariq007/Fitness_Freaks.git
+
+# 2. Navigate into the project
+cd Fitness_Freaks
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
 ```
+<hr>
 
-**Edit a file directly in GitHub**
+## 🔐 Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create a .env file in the root and add:
+```bash
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_KEY=your_anon_key
+and more
+```
+<hr>
 
-**Use GitHub Codespaces**
+## 🚀 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+You can deploy this app on Render, Netlify, or Vercel.
 
-This project is built with:
+Example: Deploy to Render
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Go to Render.com
 
-## How can I deploy this project?
+2. Click "New Web Service"
 
-Simply open [Lovable](https://lovable.dev/projects/88ed8b91-8863-46da-aa9b-1eb3ada3b70f) and click on Share -> Publish.
+3. Connect your GitHub repo
 
-## Can I connect a custom domain to my Lovable project?
+4. Set Environment: Node
 
-Yes, you can!
+5. Set Build Command: npm install
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+6. Set Start Command: npm run dev or vite
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# Fitness_Freaks
->>>>>>> c40e5779c49ba6ac2407ccfb034225db4c4b5e98
+7. Add environment variables from .env
+
+<hr>
+
+## 🙌 Acknowledgements
+
+1. Supabase
+
+2. React
+
+3. Tailwind CSS
+
+4. ShadCN UI
+
+<hr>
+
+## 📬 Contact
+
+**Created with ❤️ by Hammad Bin Tariq**
+
+📧 Email: [](mailto: hammadtariq0007@gmail.com) 
+
+🌐 LinkedIn  [Click to view Linkedin](https://www.linkedin.com/in/hammad-bin-tariq-b040a4281)
+
+🐙 Portfolio  [Click to see personal portfolio](https://portfolio-hammad-bin-tariq.vercel.app/)
+<hr>
+
